@@ -1,5 +1,6 @@
 # SpiderZhuanzhuan
 爬取转转APP的二手手机iphone类目
+demo参考
 
 ## goApp
 用来展示数据的页面和后台 
@@ -18,7 +19,9 @@ python3.9
 
 scrapy 2.7.1
 
-(其他还有PIL等依赖包碰到跟着安装就行)
+一定要记住安装pillow(PIL) 否则图片无法下载到本地
 
 mongodb community6.0
+
+
 
