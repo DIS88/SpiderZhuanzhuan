@@ -1,0 +1,9 @@
+<html>
+    <title>所有iphone</title>
+	    {{range .items}}
+	    <li> <a href="/img/{{.file_paths}}" >{{.title}}<a/>  / 类型 {{.model}} /价格:{{.price}}  /优惠{{.cutPrice}}  </li>
+	    {{end}}
+	    分页 第{{range .pages}}
+	        <a href="/list/{{.}}">{{.}}</a>
+	        {{end}}页
+</html>
